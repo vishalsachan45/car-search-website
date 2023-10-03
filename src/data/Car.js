@@ -4,244 +4,443 @@ export const carData=[
     "name": "Toyota Camry",
     "year": 2022,
     "price": 30000,
-    "image": "https://c4.wallpaperflare.com/wallpaper/968/636/979/tuning-white-white-toyota-wallpaper-preview.jpg"
+    "image": "https://c4.wallpaperflare.com/wallpaper/968/636/979/tuning-white-white-toyota-wallpaper-preview.jpg",
+    "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     
   },
   {
     "id": 2,
     "name": "Honda Civic",
     "year": 2021,
-    "price": 25000,
-    "image":"https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/27074/civic-exterior-front-view.jpeg?q=80"
+    "price": "25000/month",
+    "image":"https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/27074/civic-exterior-front-view.jpeg?q=80",
+    "space":"4 People",
+    "average":"6.1km/1Lr",
+    "fuelType":"Hybrid",
+    "type":"automatic"
   },
   
     {
       "id": 3,
       "name": "Ford Mustang",
       "year": 2023,
-      "price": 40000
+      "price": 40000,
+      "image":"https://images.unsplash.com/photo-1547744152-14d985cb937f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zm9yZCUyMG11c3Rhbmd8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 4,
       "name": "Chevrolet Silverado",
       "year": 2022,
-      "price": 35000
+      "price": 35000,
+      "image":"https://thumbs.dreamstime.com/z/classical-american-pickup-truck-chevrolet-silverado-white-background-isolated-213370915.jpg?w=992",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 5,
-      "name": "Nissan Altima",
+      "name": "BMW 2 series",
       "year": 2022,
-      "price": 28000
+      "price": 28000,
+      "image":"https://imgd.aeplcdn.com/642x361/n/cw/ec/122321/bmw-3-series-front-view5.jpeg?isig=0&wm=1&q=80",
+      "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 6,
       "name": "BMW 3 Series",
       "year": 2023,
-      "price": 45000
+      "price": 45000,
+      "image":"https://www.bmw.in/content/dam/bmw/marketIN/bmw_in/all-models/3-series/gl/2023/navigation.png",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 7,
       "name": "Audi A4",
       "year": 2022,
-      "price": 42000
+      "price": 42000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Audi/A4/10548/1689591781105/front-left-side-47.jpg",
+      "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 8,
       "name": "Hyundai Sonata",
       "year": 2023,
-      "price": 28000
+      "price": 28000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/Hyundai-Sonata-Transform/422/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 9,
       "name": "Volkswagen Golf",
       "year": 2022,
-      "price": 30000
+      "price": 30000,
+      "image":"https://cdn.motor1.com/images/mgl/nAy4Oy/s3/img_5993.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
+
     },
     {
       "id": 10,
       "name": "Tesla Model 3",
       "year": 2023,
-      "price": 50000
+      "price": 50000,
+      "image":"https://imgd.aeplcdn.com/664x374/n/cw/ec/37138/model-3-exterior-right-front-three-quarter.jpeg?isig=0&q=80&q=80",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 11,
       "name": "Mercedes-Benz C-Class",
       "year": 2023,
-      "price": 48000
+      "price": 48000,
+      "image":"https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/116201/c-class-exterior-front-view-23.jpeg?isig=0&q=80",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 12,
       "name": "Subaru Outback",
       "year": 2022,
-      "price": 32000
+      "price": 32000,
+      "image":"https://www.cars.com/i/large/in/v2/stock_photos/6ae5d23c-48e5-4c4d-a81b-3bb61b2dd306/7177a963-579a-45ff-86e3-99975d37ebbe.png",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 13,
       "name": "Lexus RX",
       "year": 2022,
-      "price": 42000
+      "price": 42000,
+      "image":"https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230117121618_Lexus%20RX%203.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 14,
       "name": "Kia Sportage",
       "year": 2022,
-      "price": 28000
+      "price": 28000,
+      "image":"https://editorial.pxcrush.net/carsales/general/editorial/2022-kia-sportage-s-review-01.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 15,
       "name": "Jeep Wrangler",
       "year": 2022,
-      "price": 38000
+      "price": 38000,
+      "image":"https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/jeep-wrangler-model.jpg&w=730&h=484&q=75&c=1",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 16,
       "name": "Ford Explorer",
       "year": 2021,
-      "price": 35000
+      "price": 35000,
+      "image":"https://build.ford.com/dig/Ford/Explorer/2023/HD-TILE/Image%5B%7CFord%7CExplorer%7C2023%7C1%7C1.%7C200A.K7D..PM7..888.89N.~4H800_VS-JN.86E.BSHAX.87B.SRB.123.64X.TFC.DBCAB.RWD.99H.76P.FEDAM.17A.GAS.55B.58S.IDBAD.53L.44T.XLT.UCL.%5D/EXT/1/vehicle.png",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 17,
       "name": "Hyundai Tucson",
       "year": 2022,
-      "price": 29000
+      "price": 29000,
+      "image":"https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/Galleries/20220713052927_Hyundai%20Tucson%203.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 18,
       "name": "Mazda CX-5",
       "year": 2023,
-      "price": 32000
+      "price": 32000,
+      "image":"https://mazda-brochures.com/main/mazdacx5/2023/1/en-ie/assets/images/cx-5-machine-gray.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 19,
       "name": "GMC Sierra",
       "year": 2021,
-      "price": 40000
+      "price": 40000,
+      "image":"https://cgi.gmc.com/mmgprod-us/dynres/prove/image.gen?i=2024/TC10903/TC10903__1SA/GAZgmds1.jpg&v=deg01&std=true&country=US&removeCat=&background=ffffff",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 20,
       "name": "Acura MDX",
       "year": 2022,
-      "price": 42000
+      "price": 42000,
+      "image":"https://cars.usnews.com/pics/size/390x290/images/Auto/custom/15272/2024_Acura_MDX_Angular_Front_1.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 21,
       "name": "Chrysler 300",
       "year": 2023,
-      "price": 36000
+      "price": 36000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Chrysler/Chrysler-300/3065/1560597052315/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 22,
       "name": "Volvo XC90",
       "year": 2021,
-      "price": 45000
+      "price": 45000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/630x420/Volvo/XC-90/10588/1689924353443/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 23,
       "name": "Tesla Model S",
       "year": 2023,
-      "price": 55000
+      "price": 55000,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2018_Tesla_Model_S_75D.jpg/1200px-2018_Tesla_Model_S_75D.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 24,
       "name": "Mercedes-Benz E-Class",
       "year": 2023,
-      "price": 52000
+      "price": 52000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/930x620/Mercedes-Benz/E-Class/10855/1690452177573/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 25,
       "name": "Audi Q5",
       "year": 2022,
-      "price": 47000
+      "price": 47000,
+      "image":"https://imgd.aeplcdn.com/642x336/n/cw/ec/53591/q5-exterior-right-front-three-quarter-36.jpeg?isig=0&q=80",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 26,
       "name": "Nissan Rogue",
       "year": 2022,
-      "price": 30000
+      "price": 30000,
+      "image":"https://media.ed.edmunds-media.com/nissan/rogue/2022/oem/2022_nissan_rogue_4dr-suv_platinum_fq_oem_1_1600.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 27,
       "name": "Chevrolet Malibu",
       "year": 2022,
-      "price": 29000
+      "price": 29000,
+      "image":"https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2024/cars/malibu/01-images/mov/2024-malibu-mov-specialeditions-midnightedition-01.png?imwidth=960",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 28,
       "name": "Subaru Forester",
       "year": 2023,
-      "price": 33000
+      "price": 33000,
+      "image":"https://thumbor.forbes.com/thumbor/fit-in/960x/https://www.forbes.com/wheels/wp-content/uploads/2021/10/2022_Subaru_Forester_Wilderness_16.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 29,
       "name": "Honda CR-V",
       "year": 2022,
-      "price": 32000
+      "price": 32000,
+      "image":"https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20220714101224_Honda_CR_V_front.jpeg&w=700&q=90&c=1",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 30,
       "name": "Toyota RAV4",
       "year": 2022,
-      "price": 35000
+      "price": 35000,
+      "image":"https://images.91wheels.com/assets/b_images/main/models/profile/profile1642681239.jpg?w=750&q=60",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 31,
       "name": "Hyundai Kona",
       "year": 2023,
-      "price": 28000
+      "price": 28000,
+      "image":"https://imgd.aeplcdn.com/664x374/cw/ec/29580/Hyundai-Kona-Electric-Right-Front-Three-Quarter-162185.jpg?wm=0&q=80&q=80",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 32,
       "name": "BMW X5",
       "year": 2023,
-      "price": 49000
+      "price": 49000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/930x620/BMW/X5-2023/10452/1688992642182/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 33,
       "name": "Ford F-150",
       "year": 2022,
-      "price": 42000
+      "price": 42000,
+      "image":"https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_842,q_auto:good,w_1498/cms/uploads/hiurlwc2p9ckdud0xn9o",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 34,
       "name": "Volkswagen Passat",
       "year": 2022,
-      "price": 31000
+      "price": 31000,
+      "image":"https://imgd.aeplcdn.com/1920x1080/cw/ec/22548/Volkswagen-Passat-Headlamps-135233.jpg?wm=0&q=80&q=80",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 35,
       "name": "Lexus ES",
       "year": 2023,
-      "price": 45000
+      "price": 45000,
+      "image":"https://stimg.cardekho.com/images/carexteriorimages/630x420/Lexus/ES/9399/1665652746848/front-left-side-47.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 36,
       "name": "Kia Optima",
       "year": 2022,
-      "price": 29000
+      "price": 29000,
+      "image":"https://media.zigcdn.com/media/content/2019/Dec/kia_optima_k51.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 37,
       "name": "Jeep Grand Cherokee",
       "year": 2022,
-      "price": 38000
+      "price": 38000,
+      "image":"https://imgd.aeplcdn.com/1200x900/n/cw/ec/135209/jeep-grand-cherokee-right-front-three-quarter1.jpeg?isig=0",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 38,
       "name": "Chevrolet Tahoe",
       "year": 2023,
-      "price": 50000
+      "price": 50000,
+      "image":"https://www.motortrend.com/uploads/2023/02/2023-Chevrolet-Tahoe-Z71-012.jpg",
+      "space":"2 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 39,
       "name": "Mazda CX-9",
       "year": 2023,
-      "price": 36000
+      "price": 36000,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/1/12/Mazda_CX-9_%28TC%29_1X7A0316.jpg",
+      "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
     {
       "id": 40,
       "name": "GMC Acadia",
       "year": 2022,
-      "price": 40000
+      "price": 40000,
+      "image":"https://upload.wikimedia.org/wikipedia/commons/1/12/Mazda_CX-9_%28TC%29_1X7A0316.jpg",
+      "space":"4 People",
+      "average":"5.1km/1Lr",
+     "fuelType":"Gasoline",
+      "type":"manual"
     },
   
   

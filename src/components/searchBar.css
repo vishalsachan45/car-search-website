@@ -1,0 +1,41 @@
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    
+}
+  
+  .inputBox {
+    flex: 1; 
+    border: none;
+    background-color: #fff; 
+    color: #333; 
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    outline: none; 
+   
+  }
+  input[type="text"] {
+    border-radius: 3px;
+    border: 2px solid #000; 
+    font-weight: bold;
+  }
+  
+  /* Style for the search icon (you can use a suitable icon library) */
+  .searchIcon {
+    color: #333;
+    font-size: 24px;
+    margin-right: 10px; /* Add some spacing between the icon and input */
+  }
+  
+  /* Style for the placeholder text */
+  .inputBox::placeholder {
+    color: #333; /* Placeholder text color */
+    font-weight: bold; /* Make placeholder text bold */
+  }
+  

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import styles from './Pagination.css';
 
 const Pagination = ({ carsPerPage, totalCars, currentPage,setCurrentPage }) => {
   const pageNumbers = [];
@@ -12,13 +13,13 @@ const Pagination = ({ carsPerPage, totalCars, currentPage,setCurrentPage }) => {
 
   return (
     <nav>
-      <ul className="pagination">
-        <li>
+      <ul className="pagination" display="none">
+        <li >
           <button
             onClick={() => currentPage > 1 && setCurrentPage(currentPage - 1)}
             disabled={currentPage === 1}
           >
-            Previous
+            &larr;{}
           </button>
         </li>
         {pageNumbers.map((number) => (
@@ -39,7 +40,7 @@ const Pagination = ({ carsPerPage, totalCars, currentPage,setCurrentPage }) => {
               }
               disabled={currentPage === Math.ceil(totalCars / carsPerPage)}
             >
-              Next
+              &rarr; {}
             </button>
           </Link>
         </li>

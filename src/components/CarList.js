@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import CarCard from './CarCard';
 import Pagination from './Pagination';
 import SearchBar from './SearchBar';
+import {Grid} from '@mui/material';
 import {carData} from '../data/Car'
 
 const CarList = () => {
@@ -23,11 +24,13 @@ const CarList = () => {
   return (
     <div>
       <SearchBar setSearchTerm={setSearchTerm} />
-      <div className="car-list">
+      <Grid container spacing={{ xs: 6, md: 3 }} columns={{ xs: 6, sm: 8, md: 12 }}>
         {currentCars.map((car) => (
-          <CarCard key={car.id} car={car} />
+          <Grid item xs={6} sm={4} md={4} key={car.id}>
+            <CarCard key={car.id} car={car} />
+          </Grid>
         ))}
-      </div>
+      </Grid>
       <Pagination
         carsPerPage={carsPerPage}
         totalCars={filteredCars.length}
